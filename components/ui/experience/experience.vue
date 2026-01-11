@@ -117,8 +117,8 @@ onMounted(() => {
 });
 </script>
 <template>
-  <div class="container mx-auto h-530">
-    <section class="px-4 py-32 pb-64 md:left-35 md:px-32 md:pt-72">
+  <div class="container mx-auto h-600">
+    <section class="px-4 py-32 pb-24 md:left-35 md:px-32 md:pt-72">
       <div
         ref="experienceTitleText"
         class="experienceTitleText text-lv-1 font-semibold"
@@ -132,7 +132,7 @@ onMounted(() => {
       </p>
     </section>
     <section class="relative">
-      <svg viewBox="0 0 100 1300" class="absolute h-400 w-auto pl-2 md:pl-16">
+      <svg viewBox="0 0 100 1300" class="absolute h-600 w-auto pl-2 md:pl-10">
         <line
           class="experienceLine"
           x1="40"
@@ -148,7 +148,7 @@ onMounted(() => {
         <circle class="ball ball03" r="20" cx="40" cy="700"></circle>
         <circle class="ball ball04" r="20" cx="40" cy="1000"></circle>
       </svg>
-      <div class="absolute top-11 left-28 flex flex-col gap-56 md:left-52">
+      <div class="absolute top-30 left-28 flex flex-col gap-100 md:left-52">
         <div
           v-for="experience in experiences"
           :key="experience.id"
