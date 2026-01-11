@@ -31,7 +31,7 @@ onMounted(() => {
   });
   tlExperienceText
     .from(experienceTitleTextSplit.chars, {
-      duration: 0.5,
+      duration: 0.2,
       y: 50,
       autoAlpha: 0,
       stagger: 0.05,
@@ -40,7 +40,7 @@ onMounted(() => {
     .from(
       experienceDescriptionText.value,
       {
-        duration: 0.5,
+        duration: 0.2,
         y: 50,
         autoAlpha: 0,
       },
@@ -50,7 +50,7 @@ onMounted(() => {
     .from(
       ".ball",
       {
-        duration: 0.5,
+        duration: 0.2,
         scale: 0,
         ease: "back.out(1.7)",
         transformOrigin: "center center",
@@ -60,7 +60,7 @@ onMounted(() => {
     .from(
       ".experience",
       {
-        duration: 0.5,
+        duration: 0.2,
         x: -100,
         autoAlpha: 0,
         stagger: 0.3,
