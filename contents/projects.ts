@@ -107,7 +107,9 @@ For seamless communication, i put all of the process to be Back End Service usin
         },
       ],
     },
-    description: `
+    description: `contributed to the development of a recommendation system for hangout places in Yogyakarta, focusing on bars, cafes, and restaurants. The project involved three main areas: machine learning, Android app development, and cloud integration.
+
+Designing the cloud architecture, which included two integrated microservices deployed on Cloud Run. The main server, built with Node.js, served as the central communication gateway for the Android app, handling authentication and data exchange. The second server, an SQL server built with NestJS and typescript, implemented caching with redis to optimize performance by storing logical results from the Google Maps API. We also established a connection pool to MySQL for efficient data retrieval.
     `,
   },
   {

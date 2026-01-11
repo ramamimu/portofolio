@@ -58,7 +58,10 @@ export const experiences: Experience[] = [
       },
     ],
     technologies: ["Google Cloud Platform", "Kubernetes"],
-    Description: `Completed an intensive program focused on cloud computing, gaining hands-on experience with Google Cloud Platform services. Developed skills in deploying and managing applications in cloud environments, with a strong emphasis on scalability, security, and cost optimization.`,
+    Description: `As a Cloud Computing Learning Path student at Bangkit, I immersed myself in cloud technologies, gaining practical experience in building scalable solutions. Bangkit's Cloud Computing Learning Path transformed me. I am equipped with a solid foundation in cloud computing, enabling me to tackle complex challenges and contribute to the development of scalable and innovative solutions. I look forward to leveraging my skills and knowledge to make a positive impact in the cloud computing industry.
+
+    As a mentor, I guided and supported aspiring mentees through their cloud computing journey. I provided technical assistance, shared industry insights, and helped mentees develop practical skills in cloud technologies. Witnessing their growth and success has been incredibly rewarding, and I am proud to have contributed to their learning experience.
+    `,
   },
   {
     id: "iris",

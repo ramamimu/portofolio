@@ -215,7 +215,9 @@ onMounted(() => {
                 </p>
               </div>
 
-              <p class="text-sm leading-relaxed text-gray-600">
+              <p
+                class="text-sm leading-relaxed whitespace-pre-line text-gray-600"
+              >
                 {{ experiences[activeExperienceIndex].Description }}
               </p>
 
