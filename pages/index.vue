@@ -3,12 +3,14 @@ import Introduction from "~/components/ui/introduction/introduction.vue";
 import Project from "~/components/ui/project/project.vue";
 import Footer from "~/components/ui/footer/footer.vue";
 import ProjectDetail from "~/components/ui/project/detail.vue";
+import Experience from "~/components/ui/experience/experience.vue";
 </script>
 
-<template>  
+<template>
   <main class="font-roboto bg-[url('/assets/images/backgrounds/texture.svg')]">
-    <ProjectDetail/>
+    <ProjectDetail />
     <Introduction />
+    <Experience />
     <Project />
     <Footer />
   </main>
