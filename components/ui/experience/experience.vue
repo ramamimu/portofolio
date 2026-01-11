@@ -132,7 +132,10 @@ onMounted(() => {
       </p>
     </section>
     <section class="relative">
-      <svg viewBox="0 0 100 1300" class="absolute h-600 w-auto pl-2 md:pl-10">
+      <svg
+        viewBox="0 0 100 1300"
+        class="absolute hidden h-600 w-auto pl-2 sm:block md:pl-10"
+      >
         <line
           class="experienceLine"
           x1="40"
@@ -148,7 +151,9 @@ onMounted(() => {
         <circle class="ball ball03" r="20" cx="40" cy="700"></circle>
         <circle class="ball ball04" r="20" cx="40" cy="1000"></circle>
       </svg>
-      <div class="absolute top-30 left-28 flex flex-col gap-100 md:left-52">
+      <div
+        class="absolute top-30 flex flex-col gap-100 px-2 sm:left-28 md:left-52"
+      >
         <div
           v-for="experience in experiences"
           :key="experience.id"
