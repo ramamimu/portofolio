@@ -32,6 +32,35 @@ The platform features two versions with multiple user roles, providing a modern 
     ],
   },
   {
+    id: "middleware-integration",
+    title: "Middleware Integration for Telecommunication Systems",
+    company: {
+      associated: "PT Pasopati Nusantara",
+      logo: "/images/companies/pasopati.jpeg",
+    },
+    tools: ["Golang", "Docker", "Cloud Run", "Cloud Build"],
+    documentations: {
+      image: {
+        link: "/images/projects/middleware-integration.png",
+        title: "Middleware Integration Daily Request",
+      },
+      links: [],
+    },
+    description: `We developed a middleware platform that automates transaction processing across multiple data sources—Firebase (used by Android applications) and MySQL (used by A2Billing)—into a single, authoritative MySQL system.
+
+This middleware eliminates the need for manual data migration between Firebase and MySQL. All transaction data is synchronized and normalized in real time, ensuring consistency, accuracy, and reliability across systems.
+
+The platform operates at production scale, handling >80k requests per day, more than 45k++ telephone calls per month, and supporting over 10k++ active users. This demonstrates its ability to run reliably under real-world, high-traffic conditions.
+
+By unifying these previously disconnected databases, the system enables:
+- Real-time transaction synchronization between mobile apps and billing systems
+- A single source of truth for financial and customer data
+- Reduced human error caused by manual data entry
+- Significantly improved operational efficiency for employees
+
+The result is a streamlined transaction workflow that allows teams to focus on higher-value work instead of repetitive data migration and reconciliation.`,
+  },
+  {
     id: "chatbot-rag",
     title: "Chatbot Using Retrieval-Augmented Generation (RAG)",
     company: {
