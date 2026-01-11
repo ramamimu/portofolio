@@ -21,7 +21,7 @@ export const experiences: Experience[] = [
       "Docker",
       "gRPC",
     ],
-    Description: `Create and Maintenance features in two teams + 1 project:
+    description: `Create and Maintenance features in two teams + 1 project:
 
 1. Visamane: Visa and work hours Management based in Japan which manages companies employee. The system use Django.
 •) Create and maintenance features.
@@ -52,7 +52,7 @@ export const experiences: Experience[] = [
       },
     ],
     technologies: ["Python", "Next", "Google Sheets API", "Golang"],
-    Description: `Part of 32 interns at GoTo, selected over 7600++ applicants under Kampus Merdeka program batch 5 from ministry of education Indonesia
+    description: `Part of 32 interns at GoTo, selected over 7600++ applicants under Kampus Merdeka program batch 5 from ministry of education Indonesia
 
 I was placed on Gojek, being part of Transport Team. Here is the details of some breakdown tasks i did:
 
@@ -89,7 +89,7 @@ Create OTP component in front end Web Concierge dashboard`,
       "Cloud Build",
       "Kubernetes",
     ],
-    Description: `As a Cloud Computing Learning Path student at Bangkit, I immersed myself in cloud technologies, gaining practical experience in building scalable solutions. Bangkit's Cloud Computing Learning Path transformed me. I am equipped with a solid foundation in cloud computing, enabling me to tackle complex challenges and contribute to the development of scalable and innovative solutions. I look forward to leveraging my skills and knowledge to make a positive impact in the cloud computing industry.
+    description: `As a Cloud Computing Learning Path student at Bangkit, I immersed myself in cloud technologies, gaining practical experience in building scalable solutions. Bangkit's Cloud Computing Learning Path transformed me. I am equipped with a solid foundation in cloud computing, enabling me to tackle complex challenges and contribute to the development of scalable and innovative solutions. I look forward to leveraging my skills and knowledge to make a positive impact in the cloud computing industry.
 
     As a mentor, I guided and supported aspiring mentees through their cloud computing journey. I provided technical assistance, shared industry insights, and helped mentees develop practical skills in cloud technologies. Witnessing their growth and success has been incredibly rewarding, and I am proud to have contributed to their learning experience.
     `,
@@ -116,6 +116,6 @@ Create OTP component in front end Web Concierge dashboard`,
       "C++",
       "Robot Operating System (ROS)",
     ],
-    Description: `Responsible for connecting and communicating as data stream between robot-soccers and referee box ( software as a referee during the matches ). The software is web based and use node.js / C++ as the back-end and Vue.js as the front-end framework. The software must meet certain requirements such as real-time animation and communication, as well as being stable and robust.`,
+    description: `Responsible for connecting and communicating as data stream between robot-soccers and referee box ( software as a referee during the matches ). The software is web based and use node.js / C++ as the back-end and Vue.js as the front-end framework. The software must meet certain requirements such as real-time animation and communication, as well as being stable and robust.`,
   },
 ];

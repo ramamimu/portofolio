@@ -11,5 +11,5 @@ export type Experience = {
   company: string;
   milestones: Milestone[];
   technologies?: string[];
-  Description: string;
+  description: string;
 };

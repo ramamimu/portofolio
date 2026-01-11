@@ -223,7 +223,7 @@ onMounted(() => {
               <p
                 class="text-sm leading-relaxed whitespace-pre-line text-gray-600"
               >
-                {{ experiences[activeExperienceIndex].Description }}
+                {{ experiences[activeExperienceIndex].description }}
               </p>
 
               <div v-if="experiences[activeExperienceIndex].technologies">
