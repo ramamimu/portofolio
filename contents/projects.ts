@@ -8,8 +8,7 @@ export const projects: Project[] = [
       associated: "PT Pasopati Nusantara",
       logo: "/images/companies/pasopati.jpeg",
     },
-    description: `
-A redesigned website for State Detention Centers (RUTAN) under the Directorate General of Corrections (Ditjen PAS), Ministry of Law and Human Rights, managed by PT Pasopati Nusantara.
+    description: `A redesigned website for State Detention Centers (RUTAN) under the Directorate General of Corrections (Ditjen PAS), Ministry of Law and Human Rights, managed by PT Pasopati Nusantara.
 
 The platform features two versions with multiple user roles, providing a modern and efficient management system. Key features include: Dashboard for data monitoring and insights, Simultaneous bulk download with non-blocking performance, user management, transaction tracking and financial history tables (including top-ups, deposits, and financial reports)    
     `,
@@ -30,7 +29,7 @@ The platform features two versions with multiple user roles, providing a modern 
       "RabbitMQ",
       "Docker",
       "PostgreSQL",
-    ],    
+    ],
   },
   {
     id: "chatbot-rag",
@@ -66,13 +65,13 @@ The platform features two versions with multiple user roles, providing a modern 
         },
       ],
     },
-    description:`a chatbot which able to answer question from documents. Once the question throwing to the chatbot, it will see through documents as reference and answer all of question based on it
+    description: `A chatbot that can answer questions from documents. Once the question is thrown to the chatbot, it will see through documents as reference and answer all of question based on it.
 
 The chatbot is able to use document (PDF) or text as reference for answering incoming question. The method called RAG (Retrieval-Augmented Generation) which consist of three processing: 
 1. Indexing - Split, embed, and put the text into vector database (Vectorstore); 
 2. Retrieval: Get the particular contents from chunks (some part of splitted relevant document) from Vectorstore; 
 3. Generation: Process the retrieval to be human-readable language as answer of the question. 
-For seamless communication, i put all of the process to be Back End Service using Fast API.`
+For seamless communication, i put all of the process to be Back End Service using Fast API.`,
   },
   {
     id: "bangkit-capstone",
@@ -108,17 +107,10 @@ For seamless communication, i put all of the process to be Back End Service usin
         },
       ],
     },
-    description: `
-    A basestation software platform designed to manage, monitor, and control autonomous robotic competitions for the KRI (Indonesia Robotic Contest) and RoboSoccer Middle Size League.
+    description: `contributed to the development of a recommendation system for hangout places in Yogyakarta, focusing on bars, cafes, and restaurants. The project involved three main areas: machine learning, Android app development, and cloud integration.
 
-The product provides a real-time visualization and control interface built with Vue.js, featuring canvas-based field rendering, live robot state updates, and responsive UI design. It supports seamless switching between Node.js and ROS environments, enabling flexible integration with different robotic systems.
-
-On the backend, the system processes high-frequency data streams from multiple robots, aggregates them into global state data, and redistributes this information in real time to both robots and the front-end interface. Communication is optimized using UDP multicast, UDP unicast, and TCP protocols, with buffering and binary encoding to comply with strict bandwidth limitations.
-
-The platform also integrates directly with the referee box, handling match commands and signals and synchronizing them across robots and the visualization layer to ensure accurate, rule-compliant match execution.
-
-This basestation has been validated in national and international robotic competitions, demonstrating stability, real-time performance, and compliance with competition standards.
-    `
+Designing the cloud architecture, which included two integrated microservices deployed on Cloud Run. The main server, built with Node.js, served as the central communication gateway for the Android app, handling authentication and data exchange. The second server, an SQL server built with NestJS and typescript, implemented caching with redis to optimize performance by storing logical results from the Google Maps API. We also established a connection pool to MySQL for efficient data retrieval.
+    `,
   },
   {
     id: "pjb-pln-web",
@@ -144,9 +136,7 @@ This basestation has been validated in national and international robotic compet
       },
       links: [],
     },
-    description: `build an integrated monitoring system to manage turbines configurations (20+) and monitor the status in almost realtime. Responsible to create UI and BE using Vue and Express.
-A freelance project for PT PLN Nusantara Power which is build an integrated monitoring system to manage turbines configurations (20+) and monitor the status in almost realtime. Responsible to create UI and BE using Vue and Express.
-`
+    description: `build an integrated monitoring system to manage turbines configurations (20+) and monitor the status in almost realtime. Responsible to create UI and BE using Vue and Express.`,
   },
   {
     id: "basestation-iris",
@@ -187,7 +177,18 @@ A freelance project for PT PLN Nusantara Power which is build an integrated moni
         },
       ],
     },
-    description: `Managing and monitoring autonomous robotic competitions on via realtime web based platform.`
+    description: `Managing and monitoring autonomous robotic competitions on via realtime web based platform.
+
+A basestation software platform designed to manage, monitor, and control autonomous robotic competitions for the KRI (Indonesia Robotic Contest) and RoboSoccer Middle Size League.
+
+The product provides a real-time visualization and control interface built with Vue.js, featuring canvas-based field rendering, live robot state updates, and responsive UI design. It supports seamless switching between Node.js and ROS environments, enabling flexible integration with different robotic systems.
+
+On the backend, the system processes high-frequency data streams from multiple robots, aggregates them into global state data, and redistributes this information in real time to both robots and the front-end interface. Communication is optimized using UDP multicast, UDP unicast, and TCP protocols, with buffering and binary encoding to comply with strict bandwidth limitations.
+
+The platform also integrates directly with the referee box, handling match commands and signals and synchronizing them across robots and the visualization layer to ensure accurate, rule-compliant match execution.
+
+This basestation has been validated in national and international robotic competitions, demonstrating stability, real-time performance, and compliance with competition standards.
+    `,
   },
   {
     id: "iris-web-2022",
@@ -209,7 +210,7 @@ A freelance project for PT PLN Nusantara Power which is build an integrated moni
         },
       ],
     },
-    description: `Redesign and develop the official website of IRIS ITS using React.js and Next.js with Tailwind CSS for styling. The website serves as a platform to showcase the team's achievements, projects, and provide information about upcoming events and competitions.`
+    description: `Redesign and develop the official website of IRIS ITS using React.js and Next.js with Tailwind CSS for styling. The website serves as a platform to showcase the team's achievements, projects, and provide information about upcoming events and competitions.`,
   },
   {
     id: "tedx-its-2022",
@@ -226,6 +227,6 @@ A freelance project for PT PLN Nusantara Power which is build an integrated moni
       },
       links: [],
     },
-    description: `Develop the front-end of the TedxITS 2022 landing page using React.js and Next.js with Typescript for type safety. The website features a modern and responsive design, providing information about the event, speakers, schedule, and ticketing details to enhance user engagement and experience.`
+    description: `Develop the front-end of the TedxITS 2022 landing page using React.js and Next.js with Typescript for type safety. The website features a modern and responsive design, providing information about the event, speakers, schedule, and ticketing details to enhance user engagement and experience.`,
   },
 ];
