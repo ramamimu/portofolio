@@ -191,7 +191,7 @@ onMounted(() => {
 
       <div
         v-show="showDescription"
-        class="fixed top-32 left-300 z-50 hidden max-h-140 w-80 overflow-auto rounded-2xl border border-slate-300 lg:block xl:right-16 xl:w-96"
+        class="fixed top-24 right-16 z-50 hidden max-h-140 w-80 overflow-auto rounded-2xl border border-slate-300 lg:block xl:right-16 xl:w-96"
       >
         <div class="rounded-2xl bg-white p-6 shadow-2xl">
           <Transition name="fade" mode="out-in">
