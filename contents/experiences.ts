@@ -47,7 +47,7 @@ export const experiences: Experience[] = [
     milestones: [
       {
         id: "Software Engineer Intern",
-        duration: "Aug 2023 - Oct 2024",
+        duration: "Aug 2023 - Dec 2023",
         title: "Software Engineer Intern",
       },
     ],
@@ -89,9 +89,7 @@ Create OTP component in front end Web Concierge dashboard`,
       "Cloud Build",
       "Kubernetes",
     ],
-    description: `As a Cloud Computing Learning Path student at Bangkit, I immersed myself in cloud technologies, gaining practical experience in building scalable solutions. Bangkit's Cloud Computing Learning Path transformed me. I am equipped with a solid foundation in cloud computing, enabling me to tackle complex challenges and contribute to the development of scalable and innovative solutions. I look forward to leveraging my skills and knowledge to make a positive impact in the cloud computing industry.
-
-    As a mentor, I guided and supported aspiring mentees through their cloud computing journey. I provided technical assistance, shared industry insights, and helped mentees develop practical skills in cloud technologies. Witnessing their growth and success has been incredibly rewarding, and I am proud to have contributed to their learning experience.
+    description: `As a mentor, I guided and supported aspiring mentees through their cloud computing journey. I provided technical assistance, shared industry insights, and helped mentees develop practical skills in cloud technologies. Witnessing their growth and success has been incredibly rewarding, and I am proud to have contributed to their learning experience.
     `,
   },
   {
